@@ -1,0 +1,25 @@
+/* confirm.css */
+.confirm-container {
+    padding-top: 100px; /* Extra space at the top like the login page */
+    text-align: center;
+}
+
+.confirmation-message {
+    margin-bottom: 25px;
+    font-size: 18px; /* Larger text for the confirmation message */
+}
+
+a.btn-success {
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #28a745; /* Bootstrap's 'success' green color */
+    border-color: #28a745;
+}
+
+a.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* You can add more custom styles here as needed */

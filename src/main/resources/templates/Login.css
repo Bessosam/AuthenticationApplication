@@ -1,0 +1,31 @@
+/* login.css */
+.container {
+    padding-top: 100px; /* Provides some space at the top of the page */
+}
+
+/* Custom styles for the form and its elements */
+#loginForm {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#loginForm .form-label {
+    font-weight: bold;
+}
+
+#loginForm .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+#loginForm .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#loginForm .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
