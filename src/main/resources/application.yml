@@ -8,5 +8,6 @@ spring:
             client-secret: 1bvodns7i9pp8r0ush9qpirnglqdctcnoslc2s27tfuuujpg8egg
         provider:
           cognito:
-            issuer-uri: https://cognito-idp.eu-north-1.amazonaws.com/eu-north-1_7VIUzvZCH
+            issuer-uri: https://cognito-idp.eu-north-1.amazonaws.com/eu-north-1_7VIUzvZC
+
 
