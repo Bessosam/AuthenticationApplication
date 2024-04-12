@@ -1,16 +1,14 @@
 aws:
-  accessKeyId: yourAccessKeyID
-  secretKey: yourSecretKey
-
-
+  accessKeyId: ${}
+  secretKey: ${}
 spring:
   security:
     oauth2:
       client:
         registration:
           cognito:
-            client-id: 785dc4oen3sreqvmsqk6doqjjb
-            client-secret: 119alq6a3qon59tj4kp55iqgka0tcje2r4jdh7snkjavt9r1h81p
+            client-id: YOUR_COGNITO_CLIENT_ID
+            client-secret: YOUR_COGNITO_CLIENT_SECRET
         provider:
           cognito:
-            issuer-uri: https://cognito-idp.eu-north-1.amazonaws.com/eu-north-1_VznBfB33W
+            issuer-uri: https://cognito-idp.{region}.amazonaws.com/{userPoolId}
